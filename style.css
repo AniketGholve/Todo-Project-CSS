@@ -212,3 +212,6 @@ nav p span{
 .taskCard hr{
     border:1px solid #f0efef;
 }
+.card:hover{
+    box-shadow: 0px 0px 20px #67676729;
+}
