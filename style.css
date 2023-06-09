@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 body{
     background-color:rgb(246, 245, 245);
@@ -47,15 +48,20 @@ nav p span{
 }
 .tasks{
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    margin: 30px;
+}
+.newTasks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 30px;
 }
 .card
 {
-    width: 352px;
+    width: 28%;
     height: 360px;
-    margin: 20px;
+    margin: 30px;
     background-color: #FFFFFF;
     border-radius: 10px;
     border: 1px solid #EDEDED;
@@ -112,7 +118,7 @@ nav p span{
     width: 500px;
     height: 250px;
     background-color: #FFFFFF;
-    margin-top: 184px;
+    margin-top: 16%;
     border: 1px solid #EDEDED;
     border-radius: 10px;
 }
@@ -160,7 +166,6 @@ nav p span{
     padding-left: 20px;
     font-size: 20px;
 }
-
 .task-div{
     display: flex;
     flex-direction: column;
